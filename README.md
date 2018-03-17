@@ -8,7 +8,7 @@ a dead simple circular queue/ring buffer implementation
 # mix.exs
 defp deps do
   [
-    {:circular_buffer, path: "../circular_buffer"}
+    {:circular_buffer, github: "wistia/circular_buffer"}
   ]
 end
 ```
