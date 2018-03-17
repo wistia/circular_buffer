@@ -2,6 +2,10 @@
 
 a dead simple circular queue/ring buffer implementation
 
+## Why?
+
+[Circular buffers](https://en.wikipedia.org/wiki/Circular_buffer) are a useful data structure for maintaining a list of bounded-size where old elements are automatically evicted. For example, we use circular buffers to maintain a rolling history of measurement data (e.g. we keep the last n measurements).
+
 ## Installation
 
 ```ex
